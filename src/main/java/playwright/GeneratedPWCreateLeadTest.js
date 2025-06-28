@@ -39,4 +39,5 @@ test('Create Lead Test', async ({ page }) => {
 
   // Step 13) Verify the new title
   await expect(page).toHaveTitle(/My Leads/);
+  
 });
